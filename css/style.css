@@ -1,53 +1,58 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
-    color: #000000;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: linear-gradient(
+    to right,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #8b00ff
+  );
+  color: #000000;
 }
-header{
-    background-color: #000000;
-    border-bottom: 5px solid #73ff00;
-    color: rgb(81, 255, 0);
-    padding: 30px 20px;
-    text-align: center;
+header {
+  background-color: #000000;
+  border-bottom: 5px solid #73ff00;
+  color: rgb(81, 255, 0);
+  padding: 30px 20px;
+  text-align: center;
 }
-nav{
-    background-color: #5c5c5c;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
-    text-align: center;
+nav {
+  background-color: #5c5c5c;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  text-align: center;
 }
-nav a{
-    color: rgb(47, 255, 0);
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 5px 10px;
-    background-color: #000000;
-    border-radius: 5px;
+nav a {
+  color: rgb(47, 255, 0);
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  background-color: #000000;
+  border-radius: 5px;
 }
 
-nav a:hover
-nav a focus {
-    text-decoration: underline;
-    background-color: #73ff00;
-    transform: translateY(-1px);
+nav a:hover nav a focus {
+  text-decoration: underline;
+  background-color: #73ff00;
+  transform: translateY(-1px);
 }
 
 main {
-    padding: 20px;
-
+  padding: 20px;
 }
 .bg-color {
-    background-color: #e0dede;
-
+  background-color: #e0dede;
 }
 section {
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #1e6900;
-    border-radius: 5px;
-
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: s#000000;
+  border-radius: 5px;
 }
