@@ -53,6 +53,42 @@ main {
 section {
   margin-bottom: 30px;
   padding: 20px;
-  background-color: s#000000;
+  background-color: s#800000;
   border-radius: 5px;
+}
+
+.iten-galeria {
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.iten-galeria img {
+  width: 20%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.iten-galeria p {
+  margin-top: 8px;
+}
+.destaque {
+  width: 65%;
+  text-align: right;
+}
+.destaque img {
+  width: 40%;
+  height: 330px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.destaque p {
+  width: 5%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
