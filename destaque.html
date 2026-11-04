@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destaque</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,127 +22,97 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Baetex site</h1>
+    <header class="site-header">
+      <h1>Baetex</h1>
+      <p>Portfólio pessoal | Pedro H. G. Baeta</p>
     </header>
 
     <nav>
-      <a href="inicio.html">início</a>
+      <a href="index.html">início</a>
       <a href="sobre.html">sobre</a>
       <a href="contato.html">contato</a>
       <a href="habilidades.html">habilidades</a>
       <a href="jogos.html">jogos</a>
       <a href="galeria.html">galeria</a>
       <a href="destaque.html">destaque</a>
+      <a href="verificador_de_idade.html">idade</a>
     </nav>
 
-    <main class="container">
-      <section class="bg-color">
-        <div class="content-box">
+    <main class="page-shell">
+      <section class="section-card">
+        <div class="section-heading">
           <h2>Destaque</h2>
-          <p>
-            Esta página foi organizada para destacar o conteúdo principal de
-            forma simples e visualmente limpa.
-          </p>
+        </div>
 
-          <div class="destaque">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
-              alt="Destaque visual"
-            />
-          </div>
+        <p>
+          Esta página foi organizada para destacar o conteúdo principal de forma
+          simples, clara e visualmente equilibrada.
+        </p>
 
-          <div class="row">
-            <div class="col-4">
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://media.gettyimages.com/id/682424694/photo/two-ping-pong-players-play-table-tennis.jpg?s=1024x1024&w=gi&k=20&c=ijnkwKNk-i1Zn8KSVkgI7BIWbg5uKcb-8kg5ofLzMug="
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ping pong</h5>
-                  <p class="card-text">
-                    Um sporte que exige reflexos rápidos, coordenação e
-                    precisão, sendo jogado em uma mesa com raquetes e uma bola
-                    leve.
-                  </p>
-                  <a href="#" class="btn btn-primary">Saiba mais</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://www.opovo.com.br/_midias/jpg/2021/02/08/basquete_cesta_bola-14843066.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Basquete</h5>
-                  <p class="card-text">
-                    Um esporte coletivo jogado por duas equipes de cinco
-                    jogadores cada, com o objetivo de marcar pontos ao lançar a
-                    bola na cesta do time adversário.
-                  </p>
-                  <a href="#" class="btn btn-primary">Saiba mais</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card" style="width: 18rem">
-                <img
-                  src="https://tecnoartengenharia.com.br/wp-content/uploads/2020/05/historiadotenis1.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Tênis</h5>
-                  <p class="card-text">
-                    Um sporte que exige habilidade, agilidade e concentração,
-                    sendo praticado em quadras específicas.
-                  </p>
-                  <a href="#" class="btn btn-primary">Saiba mais</a>
-                </div>
+        <div class="destaque">
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+            alt="Destaque visual"
+          />
+        </div>
+
+        <div class="row g-4 mt-3">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img
+                src="https://media.gettyimages.com/id/682424694/photo/two-ping-pong-players-play-table-tennis.jpg?s=1024x1024&w=gi&k=20&c=ijnkwKNk-i1Zn8KSVkgI7BIWbg5uKcb-8kg5ofLzMug="
+                class="card-img-top"
+                alt="Ping pong"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ping pong</h5>
+                <p class="card-text">
+                  Um esporte que exige reflexos rápidos, coordenação e precisão,
+                  sendo jogado em uma mesa com raquetes e uma bola leve.
+                </p>
               </div>
             </div>
           </div>
 
-          <table>
-            <thead>
-              <tr>
-                <th>Real</th>
-                <th>Dólar</th>
-                <th>Euro</th>
-                <th>Libra</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>0,20</td>
-                <td>0,18</td>
-                <td>0,16</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>1,00</td>
-                <td>0,90</td>
-                <td>0,80</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>2,00</td>
-                <td>1,80</td>
-                <td>1,60</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img
+                src="https://www.opovo.com.br/_midias/jpg/2021/02/08/basquete_cesta_bola-14843066.jpg"
+                class="card-img-top"
+                alt="Basquete"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Basquete</h5>
+                <p class="card-text">
+                  Um esporte coletivo jogado por duas equipes, com o objetivo de
+                  marcar pontos ao lançar a bola na cesta do time adversário.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img
+                src="https://tecnoartengenharia.com.br/wp-content/uploads/2020/05/historiadotenis1.jpeg"
+                class="card-img-top"
+                alt="Tênis"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tênis</h5>
+                <p class="card-text">
+                  Um esporte que exige habilidade, agilidade e concentração,
+                  sendo praticado em quadras específicas.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>desenvolvido por Pedro.h.g.Baeta 1A TI</footer>
+    <footer>desenvolvido por Pedro H. G. Baeta | 1A TI</footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
