@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baetex | Organização Financeira</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Baetex</h1>
+      <p>Organizador Financeiro Responsável</p>
+    </header>
+
+    <nav>
+      <a href="index.html">início</a>
+      <a href="sobre.html">sobre</a>
+      <a href="contato.html">contato</a>
+      <a href="habilidades.html">habilidades</a>
+      <a href="jogos.html">jogos</a>
+      <a href="galeria.html">galeria</a>
+      <a href="destaque.html">destaque</a>
+      <a href="financas.html">finanças</a>
+      <a href="verificador_de_idade.html">idade</a>
+    </nav>
+
+    <main class="page-shell">
+      <section class="section-card">
+        <div class="section-heading">
+          <h2>Organizador financeiro com responsabilidade</h2>
+        </div>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-6">
+            <form id="form-financas" class="card p-4">
+              <div class="mb-3">
+                <label for="rendaMensal" class="form-label">Renda mensal</label>
+                <input id="rendaMensal" type="number" class="form-control" min="0" step="0.01" placeholder="Ex.: 3500" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="gastosFixos" class="form-label">Gastos fixos</label>
+                <input id="gastosFixos" type="number" class="form-control" min="0" step="0.01" placeholder="Ex.: 1800" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="gastosVariaveis" class="form-label">Gastos variáveis</label>
+                <input id="gastosVariaveis" type="number" class="form-control" min="0" step="0.01" placeholder="Ex.: 600" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="metaPoupanca" class="form-label">Meta de poupança</label>
+                <input id="metaPoupanca" type="number" class="form-control" min="0" step="0.01" placeholder="Ex.: 500" required />
+              </div>
+
+              <div class="d-flex gap-2 flex-wrap">
+                <button type="submit" class="btn btn-primary">Calcular orçamento</button>
+                <button type="button" id="limparFinanceiro" class="btn btn-secondary">Limpar</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card p-4 h-100">
+              <h3 class="mb-3">Resumo financeiro</h3>
+              <div id="resultadoFinanceiro" class="alert alert-info mb-3" role="alert">
+                Preencha os dados para analisar sua situação financeira.
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Saldo disponível</span>
+                  <strong id="saldoDisponivel">R$ 0,00</strong>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Gastos totais</span>
+                  <strong id="gastosTotais">R$ 0,00</strong>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Percentual gasto</span>
+                  <strong id="percentualGasto">0%</strong>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Situação</span>
+                  <strong id="situacaoFinanceira">Aguardando dados</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>desenvolvido por Pedro H. G. Baeta | 1A TI</footer>
+
+    <script src="js/financas.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
